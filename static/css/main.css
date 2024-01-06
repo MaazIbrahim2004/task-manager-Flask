@@ -34,3 +34,9 @@ td {
 #content {
     width: 70%;
 }
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
