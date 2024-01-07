@@ -21,7 +21,7 @@
             <td>{{ task.content }}</td> <!-- table data -->
             <td>{{ task.date_created.date() }}</td>
             <td>
-                <a href = "/delete/{{task.id}}">Delete</a>
+                <a href = "/delete/{{task.id}}">Delete</a> <!-- when pressed, the user will be redirected to /delete/{{task.id}} -->
                 <br>
                 <a href = "/update/{{task.id}}">Update</a>
             </td>
@@ -29,7 +29,7 @@
         {% endfor %}
     </table>
     {% endif %}
-    <form action = "/" method = "POST">
+    <form action = "/" method = "POST"> <!-- read data from form and send it to the server. the data is sent to /, which is the root of the application. -->
         <input type = "text" name = "content">
         <input type = "submit" value = "Add Task">
     </form>
