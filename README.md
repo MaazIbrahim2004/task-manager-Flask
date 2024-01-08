@@ -2,6 +2,9 @@
 
 A task management web application built with Flask, SQLAlchemy, and SQLite.
 
+![flask_taskManager](https://github.com/MaazIbrahim2004/to-do-list-Flask/assets/111203880/e82a0926-d59e-46cd-a3bc-e01c84eca570)
+
+
 ## Technologies Used
 
 - **Flask** 
