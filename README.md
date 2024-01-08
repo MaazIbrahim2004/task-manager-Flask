@@ -1,4 +1,4 @@
-# Flask Task Master
+# Flask Task Manager
 
 A task management web application built with Flask, SQLAlchemy, and SQLite.
 
